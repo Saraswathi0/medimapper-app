@@ -1,0 +1,7 @@
+[theme]
+css = """
+    body {
+        background-image: url('one.jpg');
+        background-size: cover;
+    }
+"""
