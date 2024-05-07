@@ -226,7 +226,7 @@ def main():
     load_data()
 
     # Symptoms input
-    user_symptoms_text = st.text_input("Enter your symptoms separated by commas:",placeholder="skin_rash")
+    user_symptoms_text = st.text_input("Enter your symptoms separated by commas:",placeholder="skin_rash,shivering")
 
     # Predict disease upon button click
     if st.button("Predict"):
